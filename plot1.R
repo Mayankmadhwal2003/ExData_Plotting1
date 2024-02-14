@@ -1,7 +1,3 @@
-source("utilities_code.R")
-
-dataset_time = return_dataset()
-household_data = dataset_time[[1]]
 
 png(file = "plot1.png",width = 480, height = 480)
 par(mfrow = c(1,1))
