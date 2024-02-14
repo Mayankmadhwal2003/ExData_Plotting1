@@ -1,8 +1,4 @@
-source("utilities_code.R")
 
-dataset_time = return_dataset()
-household_data = dataset_time[[1]]
-date_time = dataset_time[[2]]
 
 
 png(file = "plot2.png",width = 480, height = 480)
